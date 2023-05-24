@@ -17,7 +17,18 @@ def random_quote(quotes):
 def print_quote(quote):
     print(quote)
 
-def display_quotes(quotes, count):
+def view_quotes(quotes):
+    for quote in quotes:
+        print_quote(quote)
+        
+def add_quote(quotes, filename):
+    new_quote = input("Enter a new quote: ")
+    quotes.append(new_quote)
+    
+    with open(filename, 'a') as file:
+        file.write(new_quote)
+        
+  def display_quotes(quotes, count):
     if count >= len(quotes):
         print("All Quotes:")
         view_quotes(quotes)
