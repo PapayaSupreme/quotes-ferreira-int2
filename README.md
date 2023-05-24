@@ -11,7 +11,9 @@ Group Members name , role and respective forks
 - FERREIRA Pablo - initiator
 
 ## forks url
- - contributor 1 :
- - contributor 2 :
+ - contributor 1 : [quotes-pauchont-int2]
+                   https://github.com/maximepcht/quotes-pauchont-int2
+ - contributor 2 : [quotes-dufrenot-int2]
+                   https://github.com/RaphNox/quotes-dufrenot-int2
  - contributor 3 : [quotes-vaneeckhoven-int2]
                    https://github.com/Arcxe0/quotes-vaneeckhoven-int2
